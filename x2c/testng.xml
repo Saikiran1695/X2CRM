@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.x2crm.entail.Demo"/>
+      <class name="com.x2crm.entail.ValidCloneEntail"/>
+      <class name="com.x2crm.entail.ValidSearchEntail"/>
+      <class name="com.x2crm.promote.validPromoteDisplayedInPromoteDetailsPage"/>
+      <class name="com.x2crm.promote.ValidCreatePromote"/>
+      <class name="com.x2crm.entail.ValidConvertEntail"/>
+      <class name="com.x2crm.promote.ValidLoginTest"/>
+      <class name="com.x2crm.entail.ValidCreateEntail"/>
+      <class name="com.x2crm.promote.ValidActivePromoteCapture"/>
+      <class name="com.x2crm.promote.validDeletePromote"/>
+      <class name="com.x2crm.promote.ValidEditPromotePage"/>
+      <class name="com.x2crm.entail.Remo"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
