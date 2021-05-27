@@ -14,4 +14,10 @@ public class Demo {
 	public void sun() {
 		Reporter.log("Demo tests are running successfully ", true);
 	}
+	
+	
+	@Test
+	public void fast() {
+		Reporter.log("Demo tests are running fastly ", true);
+	}
 }
